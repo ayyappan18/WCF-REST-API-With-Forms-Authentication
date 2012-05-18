@@ -1,0 +1,7 @@
+C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\bin\WCFREST.WebAppAPI.dll
+C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\bin\WCFREST.WebAppAPI.pdb
+C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\obj\Debug\WCFREST.WebAppAPI.dll
+C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\obj\Debug\WCFREST.WebAppAPI.pdb
+C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\bin\WCFREST.Services.dll
+C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\bin\WCFREST.Services.pdb
