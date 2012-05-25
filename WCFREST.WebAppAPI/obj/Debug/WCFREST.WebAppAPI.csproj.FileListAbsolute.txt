@@ -5,3 +5,10 @@ C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.Web
 C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\obj\Debug\WCFREST.WebAppAPI.pdb
 C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\bin\WCFREST.Services.dll
 C:\Users\fuscda01\Documents\OtherCode\WCFRESTWithFormsAuthentication\WCFREST.WebAppAPI\bin\WCFREST.Services.pdb
+C:\Users\Damiano\Documents\Development\SWG\WCF-REST-API-With-Forms-Authentication\WCFREST.WebAppAPI\bin\WCFREST.WebAppAPI.dll
+C:\Users\Damiano\Documents\Development\SWG\WCF-REST-API-With-Forms-Authentication\WCFREST.WebAppAPI\bin\WCFREST.WebAppAPI.pdb
+C:\Users\Damiano\Documents\Development\SWG\WCF-REST-API-With-Forms-Authentication\WCFREST.WebAppAPI\bin\WCFREST.Services.dll
+C:\Users\Damiano\Documents\Development\SWG\WCF-REST-API-With-Forms-Authentication\WCFREST.WebAppAPI\bin\WCFREST.Services.pdb
+C:\Users\Damiano\Documents\Development\SWG\WCF-REST-API-With-Forms-Authentication\WCFREST.WebAppAPI\obj\Debug\WCFREST.WebAppAPI.csprojResolveAssemblyReference.cache
+C:\Users\Damiano\Documents\Development\SWG\WCF-REST-API-With-Forms-Authentication\WCFREST.WebAppAPI\obj\Debug\WCFREST.WebAppAPI.dll
+C:\Users\Damiano\Documents\Development\SWG\WCF-REST-API-With-Forms-Authentication\WCFREST.WebAppAPI\obj\Debug\WCFREST.WebAppAPI.pdb

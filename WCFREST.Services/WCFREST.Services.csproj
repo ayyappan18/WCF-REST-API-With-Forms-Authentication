@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Play\DemoData.cs" />
+    <Compile Include="Play\PlayPosition.cs" />
+    <Compile Include="Play\PlayLookupInfo.cs" />
+    <Compile Include="Play\PlayService.cs" />
     <Compile Include="CustomService.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonLookupInfo.cs" />

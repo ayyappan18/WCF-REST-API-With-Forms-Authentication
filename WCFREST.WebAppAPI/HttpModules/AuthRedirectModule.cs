@@ -41,13 +41,14 @@ namespace WCFREST.WebAppAPI
 		{
 			// This is to avoid redirection to Login.ashx from FormsAuthentication.
 			HttpApplication app = (HttpApplication)sender;
+
 			if (app.Response.StatusCode == 302)
 			{
 				app.Response.ClearHeaders();
 				app.Response.ClearContent();
 
 				// return unauthorized
-				app.Response.StatusCode = 401;
+				app.Response.StatusCode = 401; // Unauthorized
 			}
 		}
 	}

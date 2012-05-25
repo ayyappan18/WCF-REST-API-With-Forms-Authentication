@@ -1,4 +1,4 @@
-﻿POST	http://localhost:65432/Login.ashx
+﻿POST	http://WCFREST/Login.ashx
 
 Request Headers:
 User-Agent: Fiddler
@@ -13,7 +13,7 @@ Request-Body:
 }
 
 ------------------------------------------------------------------
-POST	http://localhost:65432/CustomService/GetPeopleWithPOST
+POST	http://WCFREST/CustomService/GetPeopleWithPOST
 
 Request Headers:
 User-Agent: Fiddler
@@ -25,4 +25,19 @@ Cookie: .ASPXAUTH=E1F8DE668C9CBC15B7D47F436DAEFFA6FC858A11313A3727487667EA9F82A2
 Request-Body:
 {
 	"Keyword":"o"
+}
+
+
+
+http://WCFREST/PlayService/GetPosition
+{
+	"LookupType":"One",
+	"PersonID":"2"
+}
+
+http://WCFREST/PlayService/ReceivePosition
+{
+	"PersonID":"2",
+	"X":"77",
+	"Y":"99"
 }

@@ -39,6 +39,7 @@ namespace WCFREST.WebAppAPI
 			{
 				jsonOutput = "{\"Success\":\"False\"}";
 				context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+				context.Response.AddHeader(@"Success", @"False");
 			}
 			else
 			{
