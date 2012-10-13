@@ -3,6 +3,9 @@ using System.Text;
 
 namespace WCFREST.WebAppAPI
 {
+	/// <summary>
+	/// TODO: This should be moved into solution CommonDOTNET, library Base.ExtensionMethods
+	/// </summary>
 	public static class StreamExtensions
 	{
 		public static string StreamToString(this System.IO.Stream s)
