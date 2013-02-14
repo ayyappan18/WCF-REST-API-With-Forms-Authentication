@@ -20,10 +20,9 @@ namespace WCFREST.WebAppAPI
 		{
 			// The route prefix will be the root part of the URL for your service.
 			// So in this case, the URL for this service will be: http://WCFREST/CustomService
-			// And you can call the GetPeople method like this: http://WCFRESTs/CustomService/GetPeople
+			// And you can call the GetPeople method like this: http://WCFREST/CustomService/GetPeople
 			// because in the CustomService.cs GetPeople method we specified WebGet UriTemplate as "/GetPeople"
 			RouteTable.Routes.Add(new ServiceRoute("CustomService", new WebServiceHostFactory(), typeof(CustomService)));
-			RouteTable.Routes.Add(new ServiceRoute("PlayService", new WebServiceHostFactory(), typeof(PlayService)));
 		}
 		
 		protected void Application_Start(object sender, EventArgs e)

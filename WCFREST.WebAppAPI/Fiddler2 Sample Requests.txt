@@ -2,42 +2,38 @@
 
 Request Headers:
 User-Agent: Fiddler
-Host: localhost:65432
+Host: WCFREST
 Content-Type: application/json
 Content-Length: 49
 
 Request-Body:
-{
-	"UserName":"me@you.com",
-	"Password":"pw"
-}
+	{
+		"UserName":"me@you.com",
+		"Password":"pw"
+	}
+
+------------------------------------------------------------------
+GET	http://WCFREST/CustomService/GetPeople
+
+Request Headers:
+User-Agent: Fiddler
+Host: WCFREST
+Cookie: (paste here the value returned by the call to login.ashx as Set-Cookie)
+
+Request-Body:
+
 
 ------------------------------------------------------------------
 POST	http://WCFREST/CustomService/GetPeopleWithPOST
 
 Request Headers:
 User-Agent: Fiddler
-Host: localhost:65432
+Host: WCFREST
 Content-Type: application/json
 Content-Length: 20
-Cookie: .ASPXAUTH=E1F8DE668C9CBC15B7D47F436DAEFFA6FC858A11313A3727487667EA9F82A2F3E09FE9A22672A09C97CDAACD9ADA884ABE113AAE1008A7398934CB24E0EC4151F9A740B8FB1405FB551722C246B4D0CCFE263361DB7438FF0295CA282FADE6B64DD69DD2FB999168232CC6786148960AA41637790E67B942F3E067E228F537579DCAD71D037204DDB93C07B56B7D336DA5A454E159E39C6954DDA11E36CDD9DC; path=/
+Cookie: (paste here the value returned by the call to login.ashx as Set-Cookie)
 
 Request-Body:
 {
 	"Keyword":"o"
-}
-
-
-
-http://WCFREST/PlayService/GetPosition
-{
-	"LookupType":"One",
-	"PersonID":"2"
-}
-
-http://WCFREST/PlayService/ReceivePosition
-{
-	"PersonID":"2",
-	"X":"77",
-	"Y":"99"
 }

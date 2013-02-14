@@ -19,8 +19,11 @@ namespace WCFREST.Services
 		/// This method has to be called with a GET.
 		///
 		/// In Fiddler2 Composer, you'll have:
+		/// 
 		/// dropdown:	GET
-		/// address:	http://localhost:65432/CustomService/GetPeople
+		/// 
+		/// address:	http://WCFREST/CustomService/GetPeople
+		/// 
 		/// Request Headers:
 		/// 
 		/// Request Body:
@@ -58,8 +61,11 @@ namespace WCFREST.Services
 		/// This method has to be called with a POST.
 		/// Any paramater must be passed in as JSON in the request body.
 		/// In Fiddler2 Composer, you'll have:
+		/// 
 		/// dropdown:	POST
-		/// address:	http://localhost:65432/CustomService/GetPeopleWithPOST
+		/// 
+		/// address:	http://WCFREST/CustomService/GetPeopleWithPOST
+		/// 
 		/// Request Headers:
 		///		Content-Type: application/json
 		///		Content-Length: 0
@@ -68,6 +74,7 @@ namespace WCFREST.Services
 		///		{
 		///			"PersonID":"1"
 		///		}
+		///		
 		/// </summary>
 		[WebInvoke(UriTemplate = "/GetPeopleWithPOST",
 			Method = "POST",
